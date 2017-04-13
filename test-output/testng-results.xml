@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Hart application ui test" duration-ms="7515" started-at="2017-01-20T22:57:00Z" finished-at="2017-01-20T22:57:08Z">
+    <groups>
+      <group name="smoketest">
+        <method signature="SmokeTest.verifyLoginPage()[pri:0, instance:com.hart.test.SmokeTest@3b084709]" name="verifyLoginPage" class="com.hart.test.SmokeTest"/>
+        <method signature="SmokeTest.verifyHomePage()[pri:0, instance:com.hart.test.SmokeTest@3b084709]" name="verifyHomePage" class="com.hart.test.SmokeTest"/>
+        <method signature="SmokeTest.verifyAllergiesList()[pri:0, instance:com.hart.test.SmokeTest@3b084709]" name="verifyAllergiesList" class="com.hart.test.SmokeTest"/>
+        <method signature="SmokeTest.verifyUserLogin(java.lang.String, java.lang.String)[pri:0, instance:com.hart.test.SmokeTest@3b084709]" name="verifyUserLogin" class="com.hart.test.SmokeTest"/>
+      </group> <!-- smoketest -->
+    </groups>
+    <test name="Smoke Test" duration-ms="7515" started-at="2017-01-20T22:57:00Z" finished-at="2017-01-20T22:57:08Z">
+      <class name="com.hart.test.SmokeTest">
+        <test-method status="PASS" signature="initializeTestBaseSetup(java.lang.String, java.lang.String)[pri:0, instance:com.hart.test.SmokeTest@3b084709]" name="initializeTestBaseSetup" is-config="true" duration-ms="4239" started-at="2017-01-20T14:57:00Z" finished-at="2017-01-20T14:57:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://app-yellow.hart.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeTestBaseSetup -->
+        <test-method status="PASS" signature="verifyLoginPage()[pri:0, instance:com.hart.test.SmokeTest@3b084709]" name="verifyLoginPage" duration-ms="61" started-at="2017-01-20T14:57:05Z" finished-at="2017-01-20T14:57:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPage -->
+        <test-method status="PASS" signature="verifyHomePage()[pri:0, instance:com.hart.test.SmokeTest@3b084709]" name="verifyHomePage" duration-ms="172" started-at="2017-01-20T14:57:05Z" depends-on-methods="com.hart.test.SmokeTest.verifyLoginPage" finished-at="2017-01-20T14:57:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePage -->
+        <test-method status="PASS" signature="verifyUserLogin(java.lang.String, java.lang.String)[pri:0, instance:com.hart.test.SmokeTest@3b084709]" name="verifyUserLogin" duration-ms="372" started-at="2017-01-20T14:57:05Z" depends-on-methods="com.hart.test.SmokeTest.verifyLoginPage" finished-at="2017-01-20T14:57:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[code.challenge@hart.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Challenge1!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserLogin -->
+        <test-method status="PASS" signature="verifyAllergiesList()[pri:0, instance:com.hart.test.SmokeTest@3b084709]" name="verifyAllergiesList" duration-ms="2487" started-at="2017-01-20T14:57:05Z" depends-on-methods="com.hart.test.SmokeTest.verifyHomePage" finished-at="2017-01-20T14:57:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAllergiesList -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hart.test.SmokeTest@3b084709]" name="tearDown" is-config="true" duration-ms="150" started-at="2017-01-20T14:57:08Z" finished-at="2017-01-20T14:57:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.hart.test.SmokeTest -->
+    </test> <!-- Smoke Test -->
+  </suite> <!-- Hart application ui test -->
+</testng-results>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Hart application ui test]">
+  <parameter name="userPassword" value="Challenge1!"/>
+  <parameter name="appURL" value="https://app-yellow.hart.com"/>
+  <parameter name="userName" value="code.challenge@hart.com"/>
+  <parameter name="browserType" value="firefox"/>
+  <test name="Smoke Test">
+    <groups>
+      <run>
+        <include name="smoketest"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.hart.test.SmokeTest"/>
+    </classes>
+  </test> <!-- Smoke Test -->
+</suite> <!-- Failed suite [Hart application ui test] -->

@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Hart application ui test">
+<parameter name="appURL" value="https://app-yellow.hart.com"/>
+<parameter name="browserType" value="firefox"/>
+<parameter name="userName" value="code.challenge@hart.com"/>
+<parameter name="userPassword" value="Challenge1!"/>
+  <test name="Smoke Test">
+    <groups>
+    <run>
+      <include name="smoketest"/>
+    </run>
+  </groups>
+    <classes>
+      <class name="com.hart.test.SmokeTest"/>
+    </classes>
+  </test>
+</suite>

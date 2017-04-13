@@ -1,0 +1,151 @@
+2017-01-20 12:00:28,282 [main] INFO com.hart.test.TestBaseSetup - Setting browser and appURL
+2017-01-20 12:00:28,285 [main] INFO utils.CommonUtils - Launching Chrome browser..
+2017-01-20 12:00:29,892 [main] INFO utils.CommonUtils - Navigating to page: https://app-yellow.hart.com
+2017-01-20 12:00:29,893 [main] INFO utils.CommonUtils - Navigating to: https://app-yellow.hart.com
+2017-01-20 12:00:32,369 [main] INFO com.hart.test.TestBaseSetup - Running Hart Login Page test...
+2017-01-20 12:00:32,375 [main] INFO com.hart.pageobjects.LoginPage - Verifying Login Page Title
+2017-01-20 12:00:32,413 [main] INFO utils.CommonUtils - The title of the page is: Hart - Login
+
+
+2017-01-20 12:00:32,427 [main] INFO com.hart.pageobjects.LoginPage - Login Page Title: Hart - Login
+2017-01-20 12:00:32,439 [main] INFO com.hart.test.TestBaseSetup - Running Hart Home Page test...
+2017-01-20 12:00:32,451 [main] INFO com.hart.pageobjects.LoginPage - Verifying Home Page Title
+2017-01-20 12:00:32,461 [main] INFO utils.CommonUtils - The title of the page is: Hart - Login
+
+
+2017-01-20 12:00:32,467 [main] INFO com.hart.pageobjects.LoginPage - Home Page Title: Hart - Login
+2017-01-20 12:00:32,470 [main] INFO com.hart.test.TestBaseSetup - Running Hart User Login test...
+2017-01-20 12:00:32,471 [main] INFO com.hart.pageobjects.LoginPage - Verifying User Login
+2017-01-20 12:00:33,181 [main] INFO com.hart.pageobjects.LoginPage - User :: Password = code.challenge@hart.com :: Challenge1!
+2017-01-20 12:00:33,376 [main] INFO com.hart.test.TestBaseSetup - Running Allergies test...
+2017-01-20 12:00:33,378 [main] INFO com.hart.pageobjects.LoginPage - Expanding Health Section
+2017-01-20 12:00:34,796 [main] INFO com.hart.pageobjects.LoginPage - Verifying Allergies list is displayed
+2017-01-20 12:00:35,164 [main] INFO com.hart.pageobjects.LoginPage - Verifying Allergies List has 8 elements
+2017-01-20 12:00:35,753 [main] INFO com.hart.pageobjects.LoginPage - Verifying Soy Allergy is Displayed
+2017-01-20 12:00:35,839 [main] INFO com.hart.test.TestBaseSetup - shutting down driver
+2017-01-20 12:03:25,536 [main] INFO com.hart.test.TestBaseSetup - Setting browser and appURL
+2017-01-20 12:03:25,539 [main] INFO utils.CommonUtils - Launching Firefox browser..
+2017-01-20 12:03:28,112 [main] INFO utils.CommonUtils - Navigating to page: https://app-yellow.hart.com
+2017-01-20 12:03:28,112 [main] INFO utils.CommonUtils - Navigating to: https://app-yellow.hart.com
+2017-01-20 12:03:32,496 [main] INFO com.hart.test.TestBaseSetup - Running Hart Login Page test...
+2017-01-20 12:03:32,502 [main] INFO com.hart.pageobjects.LoginPage - Verifying Login Page Title
+2017-01-20 12:03:32,513 [main] INFO utils.CommonUtils - The title of the page is: Hart - Login
+
+
+2017-01-20 12:03:32,522 [main] INFO com.hart.pageobjects.LoginPage - Login Page Title: Hart - Login
+2017-01-20 12:03:32,535 [main] INFO com.hart.test.TestBaseSetup - Running Hart Home Page test...
+2017-01-20 12:03:32,538 [main] INFO com.hart.pageobjects.LoginPage - Verifying Home Page Title
+2017-01-20 12:03:32,548 [main] INFO utils.CommonUtils - The title of the page is: Hart - Login
+
+
+2017-01-20 12:03:32,559 [main] INFO com.hart.pageobjects.LoginPage - Home Page Title: Hart - Login
+2017-01-20 12:03:32,565 [main] INFO com.hart.test.TestBaseSetup - Running Hart User Login test...
+2017-01-20 12:03:32,567 [main] INFO com.hart.pageobjects.LoginPage - Verifying User Login
+2017-01-20 12:03:32,803 [main] INFO com.hart.pageobjects.LoginPage - User :: Password = code.challenge@hart.com :: Challenge1!
+2017-01-20 12:03:33,153 [main] INFO com.hart.test.TestBaseSetup - Running Allergies test...
+2017-01-20 12:03:33,154 [main] INFO com.hart.pageobjects.LoginPage - Expanding Health Section
+2017-01-20 12:03:34,872 [main] INFO com.hart.pageobjects.LoginPage - Verifying Allergies list is displayed
+2017-01-20 12:03:35,111 [main] INFO com.hart.pageobjects.LoginPage - Verifying Allergies List has atleast 8 elements
+2017-01-20 12:03:35,632 [main] INFO com.hart.pageobjects.LoginPage - Verifying Soy Allergy is Displayed
+2017-01-20 12:03:35,739 [main] INFO com.hart.test.TestBaseSetup - shutting down driver
+2017-01-20 13:38:14,090 [main] INFO com.hart.test.TestBaseSetup - Setting browser and appURL
+2017-01-20 13:38:14,093 [main] INFO utils.CommonUtils - Launching Firefox browser..
+2017-01-20 13:38:16,841 [main] INFO utils.CommonUtils - Navigating to page: https://app-yellow.hart.com
+2017-01-20 13:38:16,841 [main] INFO utils.CommonUtils - Navigating to: https://app-yellow.hart.com
+2017-01-20 13:38:18,617 [main] INFO com.hart.test.TestBaseSetup - Running Hart Login Page test...
+2017-01-20 13:38:18,626 [main] INFO com.hart.pageobjects.LoginPage - Verifying Login Page Title
+2017-01-20 13:38:18,640 [main] INFO utils.CommonUtils - The title of the page is: Hart - Login
+
+
+2017-01-20 13:38:18,649 [main] INFO com.hart.pageobjects.LoginPage - Login Page Title: Hart - Login
+2017-01-20 13:38:18,660 [main] INFO com.hart.test.TestBaseSetup - Running Hart Home Page test...
+2017-01-20 13:38:18,666 [main] INFO com.hart.pageobjects.LoginPage - Verifying Home Page Title
+2017-01-20 13:38:18,684 [main] INFO utils.CommonUtils - The title of the page is: Hart - Login
+
+
+2017-01-20 13:38:18,696 [main] INFO com.hart.pageobjects.LoginPage - Home Page Title: Hart - Login
+2017-01-20 13:38:18,699 [main] INFO com.hart.test.TestBaseSetup - Running Hart User Login test...
+2017-01-20 13:38:18,699 [main] INFO com.hart.pageobjects.LoginPage - Verifying User Login
+2017-01-20 13:38:18,932 [main] INFO com.hart.pageobjects.LoginPage - User :: Password = code.challenge@hart.com :: Challenge1!
+2017-01-20 13:38:19,074 [main] INFO com.hart.test.TestBaseSetup - Running Allergies test...
+2017-01-20 13:38:19,078 [main] INFO com.hart.pageobjects.LoginPage - Expanding Health Section
+2017-01-20 13:38:20,426 [main] INFO com.hart.pageobjects.LoginPage - Verifying Allergies list is displayed
+2017-01-20 13:38:20,648 [main] INFO com.hart.pageobjects.LoginPage - Verifying Allergies List has atleast 8 elements
+2017-01-20 13:38:21,469 [main] INFO com.hart.pageobjects.LoginPage - Verifying Soy Allergy is Displayed
+2017-01-20 13:38:21,506 [main] INFO com.hart.test.TestBaseSetup - shutting down driver
+2017-01-20 13:54:16,529 [main] INFO com.hart.test.TestBaseSetup - Setting browser and appURL
+2017-01-20 13:54:16,532 [main] INFO utils.CommonUtils - Launching Chrome browser..
+2017-01-20 13:54:18,107 [main] INFO utils.CommonUtils - Navigating to page: https://app-yellow.hart.com
+2017-01-20 13:54:18,108 [main] INFO utils.CommonUtils - Navigating to: https://app-yellow.hart.com
+2017-01-20 13:54:21,117 [main] INFO com.hart.test.TestBaseSetup - Running Hart Login Page test...
+2017-01-20 13:54:21,122 [main] INFO com.hart.pageobjects.LoginPage - Verifying Login Page Title
+2017-01-20 13:54:21,143 [main] INFO utils.CommonUtils - The title of the page is: Hart - Login
+
+
+2017-01-20 13:54:21,152 [main] INFO com.hart.pageobjects.LoginPage - Login Page Title: Hart - Login
+2017-01-20 13:54:21,157 [main] INFO com.hart.test.TestBaseSetup - Running Hart Home Page test...
+2017-01-20 13:54:21,159 [main] INFO com.hart.pageobjects.LoginPage - Verifying Home Page Title
+2017-01-20 13:54:21,169 [main] INFO utils.CommonUtils - The title of the page is: Hart - Login
+
+
+2017-01-20 13:54:21,174 [main] INFO com.hart.pageobjects.LoginPage - Home Page Title: Hart - Login
+2017-01-20 13:54:21,177 [main] INFO com.hart.test.TestBaseSetup - Running Hart User Login test...
+2017-01-20 13:54:21,178 [main] INFO com.hart.pageobjects.LoginPage - Verifying User Login
+2017-01-20 13:54:21,534 [main] INFO com.hart.pageobjects.LoginPage - User :: Password = code.challenge@hart.com :: Challenge1!
+2017-01-20 13:54:21,749 [main] INFO com.hart.test.TestBaseSetup - Running Allergies test...
+2017-01-20 13:54:21,750 [main] INFO com.hart.pageobjects.LoginPage - Expanding Health Section
+2017-01-20 13:54:23,202 [main] INFO com.hart.pageobjects.LoginPage - Verifying Allergies list is displayed
+2017-01-20 13:54:23,501 [main] INFO com.hart.pageobjects.LoginPage - Verifying Allergies List has atleast 8 elements
+2017-01-20 13:54:24,087 [main] INFO com.hart.pageobjects.LoginPage - Verifying Soy Allergy is Displayed
+2017-01-20 13:54:24,171 [main] INFO com.hart.test.TestBaseSetup - shutting down driver
+2017-01-20 13:58:42,731 [main] INFO com.hart.test.TestBaseSetup - Setting browser and appURL
+2017-01-20 13:58:42,734 [main] INFO utils.CommonUtils - Launching Chrome browser..
+2017-01-20 13:58:44,277 [main] INFO utils.CommonUtils - Navigating to page: https://app-yellow.hart.com
+2017-01-20 13:58:44,277 [main] INFO utils.CommonUtils - Navigating to: https://app-yellow.hart.com
+2017-01-20 13:58:47,564 [main] INFO com.hart.test.TestBaseSetup - Running Hart Login Page test...
+2017-01-20 13:58:47,569 [main] INFO com.hart.pageobjects.LoginPage - Verifying Login Page Title
+2017-01-20 13:58:47,595 [main] INFO utils.CommonUtils - The title of the page is: Hart - Login
+
+
+2017-01-20 13:58:47,600 [main] INFO com.hart.pageobjects.LoginPage - Login Page Title: Hart - Login
+2017-01-20 13:58:47,607 [main] INFO com.hart.test.TestBaseSetup - Running Hart Home Page test...
+2017-01-20 13:58:47,610 [main] INFO com.hart.pageobjects.LoginPage - Verifying Home Page Title
+2017-01-20 13:58:47,620 [main] INFO utils.CommonUtils - The title of the page is: Hart - Login
+
+
+2017-01-20 13:58:47,630 [main] INFO com.hart.pageobjects.LoginPage - Home Page Title: Hart - Login
+2017-01-20 13:58:47,633 [main] INFO com.hart.test.TestBaseSetup - Running Hart User Login test...
+2017-01-20 13:58:47,634 [main] INFO com.hart.pageobjects.LoginPage - Verifying User Login
+2017-01-20 13:58:47,986 [main] INFO com.hart.pageobjects.LoginPage - User :: Password = code.challenge@hart.com :: Challenge1!
+2017-01-20 13:58:48,184 [main] INFO com.hart.test.TestBaseSetup - Running Allergies test...
+2017-01-20 13:58:48,186 [main] INFO com.hart.pageobjects.LoginPage - Expanding Health Section
+2017-01-20 13:58:49,667 [main] INFO com.hart.pageobjects.LoginPage - Verifying Allergies list is displayed
+2017-01-20 13:58:49,976 [main] INFO com.hart.pageobjects.LoginPage - Verifying Allergies List has atleast 8 elements
+2017-01-20 13:58:50,413 [main] INFO com.hart.pageobjects.LoginPage - Allergies List has 8 elements
+2017-01-20 13:58:50,880 [main] INFO utils.CommonUtils - Screenshot taken
+2017-01-20 13:58:50,883 [main] INFO com.hart.test.TestBaseSetup - shutting down driver
+2017-01-20 14:57:00,933 [main] INFO com.hart.test.TestBaseSetup - Setting browser and appURL
+2017-01-20 14:57:00,937 [main] INFO utils.CommonUtils - Launching Firefox browser..
+2017-01-20 14:57:03,558 [main] INFO utils.CommonUtils - Navigating to page: https://app-yellow.hart.com
+2017-01-20 14:57:03,558 [main] INFO utils.CommonUtils - Navigating to: https://app-yellow.hart.com
+2017-01-20 14:57:05,190 [main] INFO com.hart.test.TestBaseSetup - Running Hart Login Page test...
+2017-01-20 14:57:05,206 [main] INFO com.hart.pageobjects.LoginPage - Verifying Login Page Title
+2017-01-20 14:57:05,220 [main] INFO utils.CommonUtils - The title of the page is: Hart - Login
+
+
+2017-01-20 14:57:05,229 [main] INFO com.hart.pageobjects.LoginPage - Login Page Title: Hart - Login
+2017-01-20 14:57:05,247 [main] INFO com.hart.test.TestBaseSetup - Running Hart Home Page test...
+2017-01-20 14:57:05,253 [main] INFO com.hart.pageobjects.LoginPage - Verifying Home Page Title
+2017-01-20 14:57:05,285 [main] INFO utils.CommonUtils - The title of the page is: Hart - Login
+
+
+2017-01-20 14:57:05,409 [main] INFO com.hart.pageobjects.LoginPage - Home Page Title: Hart - Login
+2017-01-20 14:57:05,434 [main] INFO com.hart.test.TestBaseSetup - Running Hart User Login test...
+2017-01-20 14:57:05,434 [main] INFO com.hart.pageobjects.LoginPage - Verifying User Login
+2017-01-20 14:57:05,664 [main] INFO com.hart.pageobjects.LoginPage - User :: Password = code.challenge@hart.com :: Challenge1!
+2017-01-20 14:57:05,793 [main] INFO com.hart.test.TestBaseSetup - Running Allergies test...
+2017-01-20 14:57:05,795 [main] INFO com.hart.pageobjects.LoginPage - Expanding Health Section
+2017-01-20 14:57:07,327 [main] INFO com.hart.pageobjects.LoginPage - Verifying Allergies list is displayed
+2017-01-20 14:57:07,668 [main] INFO com.hart.pageobjects.LoginPage - Verifying Allergies List has atleast 8 elements
+2017-01-20 14:57:08,250 [main] INFO com.hart.pageobjects.LoginPage - Verifying Soy Allergy is Displayed
+2017-01-20 14:57:08,280 [main] INFO com.hart.test.TestBaseSetup - shutting down driver
